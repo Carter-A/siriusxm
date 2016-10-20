@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<style>
+		*[class="snowflakes"]{
+	background-image: url("https://dl.dropboxusercontent.com/u/109089695/wave2-illustration.png");
+	background-size: cover;
+	background-repeat: repeat-x;
+	height:800px;
+	width:600px;
+}
+/* customizable snowflake styling */
+*[class="snowflake"] {
+	color: #fff;
+	font-size: 1em;
+	font-family: Arial;
+	text-shadow: 0 0 1px #000;
+}
+@-webkit-keyframes snowflakes-fall{
+	0%{top:-10%}
+	100%{top:100%}
+}
+@-webkit-keyframes snowflakes-shake{
+	0%{-webkit-transform:translateX(0px);transform:translateX(0px)}
+	50%{-webkit-transform:translateX(80px);transform:translateX(80px)}
+	100%{-webkit-transform:translateX(0px);transform:translateX(0px)}
+}
+@keyframes snowflakes-fall{
+	0%{top:-10%}
+	100%{top:800px}
+}
+@keyframes snowflakes-shake{
+	0%{transform:translateX(0px)}
+	50%{transform:translateX(80px)}
+	100%{transform:translateX(0px)}
+}
+*[class="snowflake"]{
+	position:fixed;
+	top:-10%;
+	z-index:9999;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	user-select:none;
+	cursor:default;
+	-webkit-animation-name:snowflakes-fall,snowflakes-shake;
+	-webkit-animation-duration:10s,3s;
+	-webkit-animation-timing-function:linear,ease-in-out;
+	-webkit-animation-iteration-count:infinite,infinite;
+	-webkit-animation-play-state:running,running;
+	animation-name:snowflakes-fall,snowflakes-shake;
+	animation-duration:10s,3s;
+	animation-timing-function:linear,ease-in-out;
+	animation-iteration-count:infinite,infinite;
+	animation-play-state:running,running
+}
+*[class="snowflake"]{
+	left:40px;
+	-webkit-animation-delay:0s,0s;
+	animation-delay:0s,0s
+}
+.snowflake:nth-of-type(1){
+	left:60px;
+	-webkit-animation-delay:3s,1s;
+	animation-delay:3s,1s
+}
+.snowflake:nth-of-type(2){
+	left:120px;
+	-webkit-animation-delay:8s,.5s;
+	animation-delay:8s,.5s
+}
+.snowflake:nth-of-type(3){
+	left:180px;
+	-webkit-animation-delay:4s,2s;
+	animation-delay:4s,2s
+}
+.snowflake:nth-of-type(4){left:240px;
+	-webkit-animation-delay:2s,2s;
+	animation-delay:2s,2s
+}
+.snowflake:nth-of-type(5){left:300px;
+	-webkit-animation-delay:13s,3s;
+	animation-delay:13s,3s
+}
+.snowflake:nth-of-type(6){left:360px;
+	-webkit-animation-delay:10s,2s;
+	animation-delay:10s,2s
+}
+.snowflake:nth-of-type(7){left:420px;
+	-webkit-animation-delay:7s,1s;
+	animation-delay:7s,1s
+}
+.snowflake:nth-of-type(8){left:480px;
+	-webkit-animation-delay:1s,0s;
+	animation-delay:1s,0s
+}
+.snowflake:nth-of-type(9){left:510px;
+	-webkit-animation-delay:3s,1.5s;
+	animation-delay:3s,1.5s
+}
+.snowflake:nth-of-type(10){
+	left:490px;
+	-webkit-animation-delay:7.5s,5s;
+	animation-delay:7.5s,5s
+}
+.snowflake:nth-of-type(11){
+	left:470px;
+	-webkit-animation-delay:9.8s,.7s;
+	animation-delay:9.8s,.7s
+}
+.snowflake:nth-of-type(12){
+	left:400px;
+	-webkit-animation-delay:4.2s,2.2s;
+	animation-delay:4.2s,2s
+}
+.snowflake:nth-of-type(13){left:380px;
+	-webkit-animation-delay:2.8s,2.8s;
+	animation-delay:2.8s,2.8s
+}
+.snowflake:nth-of-type(14){left:310px;
+	-webkit-animation-delay:11s,3.2s;
+	animation-delay:11s,3.2s
+}
+.snowflake:nth-of-type(15){left:280px;
+	-webkit-animation-delay:9.2s,2.2s;
+	animation-delay:9.2s,2.2s
+}
+.snowflake:nth-of-type(16){left:210px;
+	-webkit-animation-delay:2.7s,1.2s;
+	animation-delay:2.7s,1.2s
+}
+.snowflake:nth-of-type(17){left:170px;
+	-webkit-animation-delay:1.4s,0.4s;
+	animation-delay:1.4s,0.4s
+}
+.snowflake:nth-of-type(18){left:100px;
+	-webkit-animation-delay:6.5s,1.8s;
+	animation-delay:6.5s,1.8s
+}
+	</style>
+	</head>
+	<body class="body">
+		<div class="snowflakes" aria-hidden="true">
+			<div class="snowflake">
+				❄
+			</div>
+			<div class="snowflake">
+				❅
+			</div>
+			<div class="snowflake">
+				❆
+			</div>
+			<div class="snowflake">
+				❄
+			</div>
+			<div class="snowflake">
+				❅
+			</div>
+			<div class="snowflake">
+				❆
+			</div>
+			<div class="snowflake">
+				❄
+			</div>
+			<div class="snowflake">
+				❅
+			</div>
+			<div class="snowflake">
+				❆
+			</div>
+			<div class="snowflake">
+				❄
+			</div>
+			<div class="snowflake">
+				❄
+			</div>
+			<div class="snowflake">
+				❅
+			</div>
+			<div class="snowflake">
+				❆
+			</div>
+			<div class="snowflake">
+				❄
+			</div>
+			<div class="snowflake">
+				❅
+			</div>
+			<div class="snowflake">
+				❆
+			</div>
+			<div class="snowflake">
+				❄
+			</div>
+			<div class="snowflake">
+				❅
+			</div>
+			<div class="snowflake">
+				❆
+			</div>
+			<div class="snowflake">
+				❄
+			</div>
+		</div>
+<custom name="opencounter" type="tracking">
+	</body>
+</html>
